@@ -4,7 +4,7 @@ body{
     background: #000428;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #004e92, #000428);
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 300%;
+    background-size: 400%;
     animation: gradient-background 10s infinite alternate;
 }
 
