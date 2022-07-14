@@ -4,7 +4,7 @@ body{
     background: #000428;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #004e92, #000428);
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 400%;
+    background-size: 300%;
     animation: gradient-background 10s infinite alternate;
 }
 
@@ -17,10 +17,18 @@ body{
     }
 }
 
+.cont1{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
 .imge{
     border-radius: 14px;
     width: 480px;
     height: 245px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .clicable{

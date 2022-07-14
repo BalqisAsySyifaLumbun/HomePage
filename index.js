@@ -4,7 +4,7 @@ $(window).on("load", function() {
         $(".cont").each(function() {
             var objectBottom = $(this).offset().top + $(this).outerHeight();
             if (objectBottom < windowBottom) {
-                if ($(this).css("opacity") == 0) { $(this).fadeTo(1000, 1); }
+                if ($(this).css("opacity") == 0) { $(this).fadeTo(700, 1); }
             } else {
                 if ($(this).css("opacity") == 1) { $(this).fadeTo(2000, 0); }
             }
@@ -18,6 +18,14 @@ $("#link1").on('click', function() {
 
 $("#link2").on('click', function() {
     window.location = "https://balqislumbun.github.io/TallyCountLumbun/";
+});
+
+$("#link3").on('click', function() {
+    window.location = "https://balqisasysyifalumbun.github.io/MintyBreeze/";
+});
+
+$("#link4").on('click', function() {
+    window.location = "https://balqisasysyifalumbun.github.io/AlertPlayground/";
 });
 
 
